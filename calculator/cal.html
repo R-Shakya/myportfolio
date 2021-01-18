@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function insertion(num){
+                document.form.inp.value=document.form.inp.value+num;
+            };
+            function equal(){
+                var exp=document.form.inp.value;
+                if(exp){
+                    document.form.inp.value=eval(document.form.inp.value);
+                }
+            };
+            function clean(){
+                document.form.inp.value="";
+            };
+
+            function back(){
+                var exp=document.form.inp.value;
+                document.form.inp.value=exp.substring(0,exp.length-1);
+            };
+        </script>
+    </head>
+    <body>
+        <div class="main">
+            <form name="form">
+                <input class="inp" name="inp">
+            </form>
+            <table>
+                <tr>
+                    <td><input class="btn" type="button" value="C" onclick="clean()"></td>
+                    <td><input class="btn" type="button" value="<" onclick="back()"></td>
+                    <td><input class="btn" type="button" value="/" onclick="insertion('/')"></td>
+                    <td><input class="btn" type="button" value="*" onclick="insertion('*')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="7" onclick="insertion(7)"></td>
+                    <td><input class="btn" type="button" value="8" onclick="insertion(8)"></td>
+                    <td><input class="btn" type="button" value="9" onclick="insertion(9)"></td>
+                    <td><input class="btn" type="button" value="-" onclick="insertion('-')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="4" onclick="insertion(4)"></td>
+                    <td><input class="btn" type="button" value="5" onclick="insertion(5)"></td>
+                    <td><input class="btn" type="button" value="6" onclick="insertion(6)"></td>
+                    <td><input class="btn" type="button" value="+" onclick="insertion('+')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="1" onclick="insertion(1)"></td>
+                    <td><input class="btn" type="button" value="2" onclick="insertion(2)"></td>
+                    <td><input class="btn" type="button" value="3" onclick="insertion(3)"></td>
+                    <td rowspan="5"><input class="btn" style="height: 106px;" type="button" value="=" onclick="equal()"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input class="btn" style="width: 106px;" type="button" value="0" onclick="insertion(0)"></td>
+                    <td><input class="btn" type="button" value="." onclick="insertion('.')"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+body{
+    background-color: whitesmoke;
+}
+
+.mycols{
+    border: 3px solid blue;
+    border-radius: 24px;
+}
+.mycols h2{
+    font-weight: bold;
+    color: black;
+}
+
+#topHeader{
+    border-bottom: 1px solid #ebebeb;
+}
+#topHeader a{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.89rem;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+/*start footer */
+.full-footer{
+    background-color: #243c4f;
+}
+.top-footer p{
+    color: white;
+}
+.top-footer a{
+    font-weight: 600;
+    color: white;
+}
+.top-footer h3{
+    color: white;
+}
+.bottom-footer{
+    background-color: #031b2e;
+}
+.bottom-footer p{
+    color: white;
+}
+/*end footer */
+/* top hero section*/
+.top-hero-section{
+    background-color: #3498db;
+    color: white;
+}
+.top-hero-section a{
+    color: white;
+    font-weight: 600;
+}
+.qualities-img{
+    width: 200px;
+}
+/* top hero section */
+
+/* start : rquirments section*/
+
+.requirments-section{
+    background-color: #004d80;
+    color: white;
+}
+
+/* end : rquirments section */
+
+/* start : newsletter section*/
+
+.home-newsletter{
+    background-color: #004d80;
+    color: white;
+}
+.home-newsletter .form-control {
+    height: 50px;
+    border-color: transparent;
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+.home-newsletter .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff
+}
+
+/* end : newsletter section */
+
+/* start : clients section */
+
+.clients-section{
+    background-color: #f0f0f0;
+}
+
+/* end : clients section */
+
+
+/* Start : About us*/
+
+.breadcrumbs-section{
+    background-color: #e9ecef;
+}
+
+/* end : About us*/
+
+/* Start : Contact us*/
+
+.address{
+    font-weight: 600;
+}
+
+/* end : contact us*/
+
+.bar{
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 17px;
+    border: 1 px solid rgb(63,71,80);
+}
