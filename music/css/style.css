@@ -1,0 +1,22 @@
+.footerlinks{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.footerlinks:hover{
+    color: #ffd800;
+}
+#footer1{
+    background: #762b00;
+}
+#bottom-footer{
+    background: #531f00;
+}
+
+.mycols{
+    border: 3px solid blue;
+    border-radius: 24px;
+}
+.mycols h2{
+    font-weight: bold;
+    color: black;
+}
