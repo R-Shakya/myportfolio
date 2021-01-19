@@ -1,0 +1,45 @@
+.footerlinks{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.footerlinks:hover{
+    color: #ffd800;
+}
+#footer1{
+    background: #762b00;
+}
+#footer2{
+    background: #531f00;
+}
+
+.mycols{
+    border: 3px solid red;
+    border-radius: 24px;
+}
+.mycols h2{
+    font-weight: bold;
+    color: black;
+}
+
+
+/*start footer */
+.top-footer{
+    background-color: #243c4f;
+}
+.top-footer p{
+    color: white;
+}
+.top-footer a{
+    font-weight: 600;
+    color: white;
+}
+.top-footer h3{
+    color: white;
+}
+.bottom-footer{
+    background-color: #031b2e;
+}
+.bottom-footer p{
+    color: white;
+}
+/*end footer */

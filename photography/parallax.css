@@ -1,0 +1,133 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  change to scroll to remove parallax effect   */
+    background-attachment: fixed;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  change to scroll to remove parallax effect   */
+    background-attachment: scroll;
+}
+
+.pimg1{
+    background-image: url('imgs/background/jungle-1.jpg');
+    min-height: 400px;
+}
+
+.pimg2{
+    background-image: url('imgs/background/jungle-2.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('imgs/background/pic-10.jpg');
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url('imgs/background/jungle-3.jpg');
+    min-height: 600px;
+}
+.pimg5{
+    background-image: url('imgs/background/butterFLY.jpg');
+    min-height: 600px;
+}
+.pimg6{
+    background-image: url('imgs/background/pic-4.jpg');
+    min-height: 600px;
+}
+.pimg7{
+    background-image: url('imgs/background/pic-8.jpg');
+    min-height: 600px;
+}
+.pimg8{
+    background-image: url('imgs/background/pic-9.jpg');
+    min-height: 600px;
+}
+.pimg9{
+    background-image: url('imgs/background/butterFLY.jpg');
+    min-height: 400px;
+}
+.pimg10{
+    background-image: url('imgs/background/taj-3.jpeg');
+    min-height: 400px;
+}
+.pimg11{
+    background-image: url('imgs/background/ball.jpg');
+    min-height: 400px;
+}
+
+.ptext1{
+    position: absolute;
+    top: 20%;
+    right: 65%;
+    width: 30%;
+    text-transform: uppercase;
+}
+.ptext2{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 30%;
+    text-transform: uppercase;
+}
+.ptext3{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.ptext4{
+    background-color: transparent;
+    color: white;
+
+}
+
+
+.bordered{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+}
+.para{
+    background-color: #111;
+    color: #fff;
+    padding: 15px;
+    height: 300px;
+}
+.header-body{
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    line-height: 1.2em;
+}
+
+    /*     */
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
