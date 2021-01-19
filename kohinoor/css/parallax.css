@@ -1,0 +1,79 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  change to scroll to remove parallax effect   */
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('/imgs/city/taj-3.jpeg');
+    min-height: 400px;
+}
+
+.pimg2{
+    background-image: url('/imgs/city/jungle-2.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('/imgs/city/jungle-1.jpg');
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url('/imgs/city/jungle-3.jpg');
+    min-height: 400px;
+}
+
+.ptext{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    text-align:justify;
+    text-transform: uppercase;
+}
+
+.ptext h3{
+    text-align:center;
+}
+
+.ptext .bordered{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.para{
+    background-color: #111;
+    color: #fff;
+    padding: 8px;
+}
+
+.block{
+    margin-top: 65px;
+    background-color: #111;
+    color: #fff;
+    text-align: justify;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+    /*     */
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
