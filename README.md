@@ -1,2 +1,2 @@
-# myportfolio
-myportfolio website has some awesome small projects to learn web development, check it out.
+# My portfolio
+My portfolio website contains some small and exciting projects to learn web development. You should check it out!
